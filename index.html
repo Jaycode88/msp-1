@@ -22,29 +22,32 @@
      <img src="assets/images/weblogo.webp" alt="dreadlocks by serah logo">
     </a>
 
-    <!-- bootstrap nav bar-->
-
-    <div class="container-fluid float-right">
-     <button class="navbar-toggler collapsed bg-orange-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-       <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="navbar-collapse collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ms-auto mx-5 bg-orange-light">
-          <a class="nav-link active dropdown-toggle text-slate" aria-current="page" href="index.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-           Home
+   <!-- bootstrap nav bar-->
+<div class="container-fluid float-right">
+    <button class="navbar-toggler collapsed bg-orange-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ms-auto mx-5 bg-orange-light navbar-link">
+        <div class="dropdown">
+          <a class="nav-link active dropdown-toggle text-slate" id="homeDropdown" aria-current="page" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Home
           </a>
-          <ul class="dropdown-menu bg-orange-bright ">
-           <li><a class="dropdown-item heavy-font text-slate" href="#whatican">What I Can Do For You</a></li>
-           <li><a class="dropdown-item heavy-font text-slate" href="#about-me">About Serah</a></li>
+          <ul class="dropdown-menu bg-orange-bright" aria-labelledby="homeDropdown">
+            <li><a class="dropdown-item heavy-font text-slate" href="#whatican">What I Can Do for you</a></li>
+            <li><a class="dropdown-item heavy-font text-slate" href="#about-me">About Serah</a></li>
           </ul>
-
-         <a class="nav-link text-slate" href="gallery.html">Gallery</a>
-         <a class="nav-link text-slate" href="faq.html">FAQS</a>
-         <a class="nav-link text-slate" href="#" data-bs-toggle="modal" data-bs-target="#signupmodal">Contact</a>
-       </div>
-     </div>
-   </div>
- </nav>
+        </div>
+  
+        <a class="nav-link text-slate" href="gallery.html">Gallery</a>
+        <a class="nav-link text-slate" href="faq.html">FAQS</a>
+        <a class="nav-link text-slate" href="#" data-bs-toggle="modal" data-bs-target="#signupmodal">Contact</a>
+      </div>
+    </div>
+  </div>
+  </nav>
+  
+  
  
   
  <!-- hero image-->
@@ -74,15 +77,17 @@
 
                 <div class="row mx-5 my-3">
                     <div class="col-12 col-md-6">
-                        <h4>Mobile Dreadlock services available in Essex:<img class="img-fluid" src="assets/icons/womanicon.webp" alt="woman icon" height="40" width="40"></h4>
-                        <ul class="text-brown text-center">
-                            <li>Creating Dreadlocks</li>
-                            <li> Maintainence Sessions</li>
-                            <li>Wrapping and Beads</li>
-                            <li>Adding and removing of Extensions</li>
-                            <li>Dreadlock Removal</li>
-                        </ul> 
-                        <p class="text-slate heavy-font text-center">Please contact me for a Quotation</p>   
+                        <div class="zoom">
+                            <h4>Mobile Dreadlock services available in Essex:<img class="img-fluid" src="assets/icons/womanicon.webp" alt="woman icon" height="40" width="40"></h4>
+                            <ul class="text-brown text-center">
+                                <li>Creating Dreadlocks</li>
+                                <li> Maintainence Sessions</li>
+                                <li>Wrapping and Beads</li>
+                                <li>Adding and removing of Extensions</li>
+                                <li>Dreadlock Removal</li>
+                            </ul> 
+                            <p class="text-slate heavy-font text-center">Please contact me for a Quotation</p> 
+                        </div>  
                         <button type="button" class="btn p-2 m-4 bg-orange-bold text-slate heavy-font btn-contact zoom" data-bs-toggle="modal" data-bs-target="#signupmodal">Contact Me</button>
                     </div>
 
@@ -98,9 +103,11 @@
                             <img class="border img-fluid" src="assets/images/manwithdreadssun.webp" alt="man with dreads in sunshine" width="300" height="300">
                         </div>
                         <div class="col-12 col-md-6 order-first order-md-last">
-                            <h4>Proffessional service with over 10 years experience<img class="img-fluid" src="assets/icons/maleicon.webp" alt="man icon" height="40" width="40"></h4>
-                            <p>I have been creating, maintaining and removing dreadlocks for some time now.
-                            I offer a mobile service so all work can be done in the comfort of your own home. I can offer sessions from 1 hour upto 6 hours in one day. I also offer evening and night time bookings aswell as in the day.</p>
+                            <div class="zoom">
+                                <h4>Proffessional service with over 10 years experience<img class="img-fluid" src="assets/icons/maleicon.webp" alt="man icon" height="40" width="40"></h4>
+                                <p>I have been creating, maintaining and removing dreadlocks for some time now.
+                                I offer a mobile service so all work can be done in the comfort of your own home. I can offer sessions from 1 hour upto 6 hours in one day. I also offer evening and night time bookings aswell as in the day.</p>
+                            </div>
                             <button type="button" class="btn p-2 m-4 bg-orange-bold text-slate heavy-font btn-contact zoom" data-bs-toggle="modal" data-bs-target="#signupmodal">Contact Me</button>
                         </div>    
                     </div>
@@ -109,12 +116,14 @@
 
                     <div class="row mx-2 my-3">
                         <div class="col-12 col-md-6">
-                            <h4>Product and Chemical Free Service <img class="img-fluid" src="assets/icons/mandreadhat.webp" alt="woman icon" height="40" width="40"></h4>
-                            <p >To get the best healthy, long lasting, dreadlocks It is best not to use any locking waxs
-                            or other products advertised for dreadlocks as many of these will stay in you hair and over time rot, 
-                            making the inside of your dreads mouldy and unhealthy. This is why I use nothing more than a crochet 
-                            hook and fine tooth comb when both creating and maintaining any dreadlocks.</p>
-                            <button type="button" class="btn p-2 m-4 bg-orange-bold text-slate heavy-font btn-contact zoom" data-bs-toggle="modal" data-bs-target="#signupmodal">Contact Me</button>
+                            <div class="zoom">
+                                <h4>Product and Chemical Free Service <img class="img-fluid" src="assets/icons/mandreadhat.webp" alt="woman icon" height="40" width="40"></h4>
+                                <p >To get the best healthy, long lasting, dreadlocks It is best not to use any locking waxs
+                                or other products advertised for dreadlocks as many of these will stay in you hair and over time rot, 
+                                making the inside of your dreads mouldy and unhealthy. This is why I use nothing more than a crochet 
+                                hook and fine tooth comb when both creating and maintaining any dreadlocks.</p>
+                            </div>
+                                <button type="button" class="btn p-2 m-4 bg-orange-bold text-slate heavy-font btn-contact zoom" data-bs-toggle="modal" data-bs-target="#signupmodal">Contact Me</button>
                         </div>
                         <div class="col-12 col-md-6">
                             <img class="border img-fluid" src="assets/images/dreadskate.webp" alt="skateboarder with dreadlocks" width="300" height="300">
@@ -148,10 +157,12 @@
             <img class="border img-fluid" src="assets/images/serahpic1.webp" alt="Serah showing off her dreadlocks" width="300" height="300">
           </div>
           <div class="col-12 col-md-6 order-first order-md-last">
-            <h4>I've had my dreadlocks for over 15 years<img class="img-fluid" src="assets/icons/womanicon.webp" alt="woman icon" height="40" width="40"></h4>
-            <p>The secret to long lasting dreadlocks is product free maintenance. I have had my dreadlocks for over 15 years and have never experienced any problems with odours of dirt build up, This is all due to maintaining them correctly.
-              Many people think dreadlocks are an easy ride with no maintainance needed, This couldnt be further from the truth. In the early stages I spent many hours a week on maintainance.
-            </p>
+            <div class="zoom">
+                <h4>I've had my dreadlocks for over 15 years<img class="img-fluid" src="assets/icons/womanicon.webp" alt="woman icon" height="40" width="40"></h4>
+                <p>The secret to long lasting dreadlocks is product free maintenance. I have had my dreadlocks for over 15 years and have never experienced any problems with odours of dirt build up, This is all due to maintaining them correctly.
+                    Many people think dreadlocks are an easy ride with no maintainance needed, This couldnt be further from the truth. In the early stages I spent many hours a week on maintainance.
+                </p>
+            </div>    
             <button type="button" class="btn p-2 m-4 bg-orange-bold text-slate heavy-font btn-contact zoom" data-bs-toggle="modal" data-bs-target="#signupmodal">Contact Me</button>
           </div>
         </div>
@@ -160,9 +171,11 @@
 
         <div class="row mx-5 my-3">
           <div class="col-12 col-md-6">
-            <h4>I love to cater to your unique needs<img class="img-fluid" src="assets/icons/womanicon.webp" alt="woman icon" height="40" width="40"></h4>
-            <p>Not all dreadlocks are the same. They can be different in so many ways, Everyone has different thickness, style of wear, added beads and colours. I love to help make your look unique and will happily liase along the planning stage with you so we can reach your desired result.
-            </p>
+            <div class="zoom">
+                <h4>I love to cater to your unique needs<img class="img-fluid" src="assets/icons/womanicon.webp" alt="woman icon" height="40" width="40"></h4>
+                <p>Not all dreadlocks are the same. They can be different in so many ways, Everyone has different thickness, style of wear, added beads and colours. I love to help make your look unique and will happily liase along the planning stage with you so we can reach your desired result.
+                </p>
+            </div>    
             <button type="button" class="btn p-2 m-4 bg-orange-bold text-slate heavy-font btn-contact zoom" data-bs-toggle="modal" data-bs-target="#signupmodal">Contact Me</button>
           </div>
           <div class="col-12 col-md-6">
