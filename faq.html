@@ -11,36 +11,39 @@
 </head>
 <body>
 
- <!--boostrap nav bar -->
-  
-  <nav class="navbar navbar-expand-lg navbar-light heavy-font text-slate">
-   
+   <!-- bootstrap nav bar-->
+
+   <nav class="navbar navbar-expand-lg navbar-light heavy-font text-slate" >
+    
     <!--logo in nav bar-->
 
     <a class="navbar-brand me-auto mx-5" href="index.html">
-      <img src="assets/images/weblogo.webp" alt="dreadlocks by serah logo">
+     <img src="assets/images/weblogo.webp" alt="dreadlocks by serah logo">
     </a>
 
    <!-- bootstrap nav bar-->
-
-    <div class="container-fluid">
-      <button class="navbar-toggler bg-orange-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ms-auto mx-5 bg-orange-light">
-          <a class="nav-link dropdown-toggle text-slate" href="index.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-           Home</a> 
-          <ul class="dropdown-menu bg-orange-bright">
-            <li><a class="dropdown-item heavy-font text-slate" href="index.html#whatican">What I Can Do For You</a></li>
+<div class="container-fluid float-right">
+    <button class="navbar-toggler collapsed bg-orange-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ms-auto mx-5 bg-orange-light navbar-link">
+        <div class="dropdown">
+          <a class="nav-link dropdown-toggle text-slate" id="homeDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Home
+          </a>
+          <ul class="dropdown-menu bg-orange-bright" aria-labelledby="homeDropdown">
+            <li><a class="dropdown-item heavy-font text-slate" href="index.html#whatican">What I Can Do for you</a></li>
             <li><a class="dropdown-item heavy-font text-slate" href="index.html#about-me">About Serah</a></li>
           </ul>
-          <a class="nav-link text-slate" href="gallery.html">Gallery</a>
-          <a class="nav-link active text-slate" aria-current="page" href="faq.html">FAQS</a>
-          <a class="nav-link text-slate" href="#" data-bs-toggle="modal" data-bs-target="#signupmodal">Contact</a>
         </div>
+  
+        <a class="nav-link text-slate" href="gallery.html">Gallery</a>
+        <a class="nav-link text-slate active" href="faq.html" aria-current="page">FAQS</a>
+        <a class="nav-link text-slate" href="#" data-bs-toggle="modal" data-bs-target="#signupmodal">Contact</a>
       </div>
     </div>
+  </div>
   </nav>
 
  <!-- hero image-->
